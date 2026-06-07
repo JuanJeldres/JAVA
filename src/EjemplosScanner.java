@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class EjemplosScanner {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); //se hace solo una vez
         System.out.print("ingresa un numero: ");
         int num = entrada.nextInt();
         entrada.nextLine();
