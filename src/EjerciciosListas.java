@@ -8,7 +8,7 @@ public class EjerciciosListas {
     public static void main(String[] args) {
 
         Scanner Prompt = new Scanner(System.in);
-        /*List<String> almacenProductos = new ArrayList<>();
+        List<String> almacenProductos = new ArrayList<>();
         almacenProductos.add("pelota");
         almacenProductos.add("tv");
 
@@ -34,9 +34,10 @@ public class EjerciciosListas {
             System.out.println("chau");
         }
 
-        System.out.println(almacenProductos);*/
+        System.out.println(almacenProductos);
 
-        /*Set<String> registroUsuarios = new HashSet<>();
+        System.out.println("ejercicio 2");
+        Set<String> registroUsuarios = new HashSet<>();
         registroUsuarios.add("peeps");
         registroUsuarios.add("pepe");
         registroUsuarios.add("botejohn");
@@ -63,6 +64,7 @@ public class EjerciciosListas {
         System.out.println("Existen " + registroUsuarios.size() + " usuarios registrados.");
 
 
+        System.out.println("ejercicio 3");
         Map<String, Integer> agendaTelefonica = new HashMap<>();
 
         agendaTelefonica.put("pepe", 968372561);
@@ -86,7 +88,7 @@ public class EjerciciosListas {
             System.out.println(agendaTelefonica.get(persona)); //no se como pero dio el numero LOL!
         }else{
             System.out.println("el contacto no existe. chao.");
-        }*/
+        }
 
         List<Double> listaNotas = new ArrayList<>();
 
